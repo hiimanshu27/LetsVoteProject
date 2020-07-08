@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+   
+<head>
+  
+    <style>
+     h1{
+         color:aqua;
+         text-align:center;
+     }
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+    
+    body{
+      background-image: url("back.jpg");
+      background-size: 2000px 2000px;
+      background-repeat:no-repeat;
+    }
+    
+    label{
+      font-weight:bold;
+      font-size:25px;
+    }
+    
+    .py-5{
+       font-weight:bold;
+      font-size:25px;
+    }
+  </style>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v3.8.5">
+  <title>LETS VOTE | DOCUMENTATION</title>
+</head>
+
+<body class="bg-light">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="common.css">
+  <!-- Custom styles for this template -->
+  <link href="form-validation.css" rel="stylesheet">
+  <script src="email_validation.js"></script>
+  
+  <header>
+        <nav id ="firstNav">
+        <ul >
+            <li><a data-flickr-embed="true"  href="https://www.flickr.com/photos/20770987@N03/2146505943/in/photolist-4Ny1yw-b7SkbB-g1VNRn-7ejYFo-koVBew-5ezrxR-797PF8-i8tnWY-95N2na-Vfu8if-cpeCxJ-qCnMHC-7LNwXg-8ZwCDP-8kc2kA-9UrgnP-Abkq29-8Q1aYv-5AVBGx-8Q1ewa-7DzsCM-5R1n6X-aF2p1i-5R1baM-7G7aTL-b7SjV2-39kqd-4Cv4No-auGh1p-r7vfYX-7uhLvd-ieTDy-743Bje-8gZhiX-7YrZU3-23Pd4D-4gFpra-d7HvhJ-2b1qSq-6ZiU8q-ofVYRW-2dRgMGm-Lu1RWW-nnNHGR-7YRnHR-7MasMi-7KA3ka-5gvA9Z-4xMSwH-mFMeN/" title="jane"><img src="https://live.staticflickr.com/2184/2146505943_a51d95f95b.jpg" width="75" height="75" alt="jane"></a><script async src="//embedr.flickr.com/assets/client-code.js"></script><script async src="//embedr.flickr.com/assets/client-code.js"></script></li>
+            <li><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Provience</button></li>
+            <li><a class="p" href="index.php">Home</a></li>
+            <li><a href="login.php" class="button">Login</a></li>
+            <li><a href="signup.html" class="button">Sign Up</a></li>
+            <li><a href="documentation.html" class="button">Documentation</a></li>
+            <li><a href="sources.html">Sources</a></li>
+
+        </ul>
+        </nav>
+  </header>
+
+  <ol>
+          
+    <li><ul id="sixNav">
+        <li><h1>HOW TO USE THIS SITE?</h1></li>
+        <li> Go to Home and view the polling results of user who voted for general election survey of 2019</li>
+        <li> Sign Up with your first name, last name, email address, username and password and get ready for voting feature </li>
+        <li> Click on Vote Here to vote for your faviorate candidate this election by clicking radio button next to it and writing your username</li>
+        <li> In the header get to know about all the provience of Canada which redirect you all the offical government sites with all the flags next to them</li>
+        <li> You can logout which will redirect you to home page displaying results of the survey</li>
+        <li> After voting you can see the results after your vote</li>
+        <li> Update your vote with just a click on update now button and change your descions</li>
+        <li> Click login in button if you already have an account</li>
+        <li> If you already voted you can see the results after logging in</li>
+        <li> If you didnot voted after creating account you will be taken to voting page so you can vote in the poll</li>
+        <li> Click on logout to login with diffrent account or sign in again</li>
+        </ul>
+    </li>
+    
+     <li><ul id="sevenNav">
+        <li><h1>FEATURES</h1></li>
+        <li>Sending a welcome message to user mail everytime they signup</li>
+        <li>Fetching information from database and calculate result and displaying on HTML using PHP</li>
+        <li>Using modal for showing information and using PHP and forms inside modal </li>
+        <li>Grid layout for display</li>
+        <li>Validating signing form</li>
+        <li>Validating login form using own PHP validation</li>
+        <li>Using "'.$_SERVER['PHP_SELF'].'?success'" to prevent re entry of information into database when user reload a page</li>
+        <li>Redirecting user on diffrent home page view based on his actions last time he logged in</li>
+        <li>Using session to get diffrent variables and performing diffrent functions based on if user logged in or signup</li>
+        <li>Using INSERT AND DELETE queries to let user update his choices and add again</li> 
+        </ul>
+    </li>
+    
+  <li><div id="eightNav">
+    <h1> SOURCES </h1>
+    <a href="https://www.w3schools.com/" >W3 SCHOOL</a>
+    <a href="https://www.flickr.com/creativecommons/">FLICKER</a>
+    <p style="color:white">Assignemnts</p>
+    </div>
+  </li>
+  
+  </ol>
+ <footer class="my-5 pt-5 text-muted text-center text-small">
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="form-validation.js"></script>
+  
+  </body>
+   
+</html>
+
+

@@ -1,0 +1,304 @@
+nav {
+  list-style-type: none;
+  overflow: hidden;
+ 
+}
+
+#firstNav{
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left:20px;
+}
+
+#firstNav li {
+    font-size: 30px;
+    padding: 50px;
+    display:inline;
+}
+#firstNav li a {
+    border-style:none;
+    color:white;
+    display:inline;
+    text-decoration: none;
+    font-family: "Courier New", Monospace;
+    padding-left:30px;
+    
+}
+#firstNav li a .p{
+  padding-bottom:30px;
+}
+
+
+#secondNav{
+    background-color: gainsboro;
+    text-align:center;
+
+}
+#secondNav li {
+    font-size: 30px;
+    display:inline;
+
+}
+#secondNav li a {
+   color:red;
+    display:inline;
+    text-decoration: none;
+  font-family: "Courier New", Monospace;
+  padding-left:30px;
+}
+
+
+#thirdNav{
+   
+  font-family: "Courier New", Monospace;
+  color: red;
+  width:300px;
+  text-align:center;
+}
+
+#tenNav{
+   
+  font-family: "Courier New", Monospace;
+  color: red;
+  width:300px;
+  text-align:center;
+}
+
+#fourthNav{
+   background-color: white;
+  font-family: "Courier New", Monospace;
+  color: red;
+  width:300px;
+  text-align:center;
+}
+
+#thirdNav li a{
+    margin: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type:none;
+    text-align:center;
+    color: white;
+    text-decoration: none;
+
+}
+
+#tenNav li a{
+    margin: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type:none;
+    text-align:center;
+    color: white;
+    text-decoration: none;
+
+}
+
+#fourthNav li a{
+    margin: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type:none;
+    text-align:center;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+#thirdNav li {
+   border:2px solid;
+   border-color: black;
+   font-size: 20px;
+   background-color: #745DF1;
+   color: white;
+}
+
+#tenNav li {
+   border:2px solid;
+   border-color: black;
+   font-size: 20px;
+   background-color: #745DF1;
+   color: white;
+}
+
+#fourthNav li {
+   padding: 10px;
+   border:2px solid;
+   border-color: black;
+   font-size: 20px;
+   background-color: white;
+   color: red;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+.login{
+       background-color: white;
+}
+
+header{
+    display:block;
+    background:#745DF1;
+    position:static;
+}
+
+/**.header header{
+    height: 60px;
+    width: 100%;
+    float: left;
+}
+*/
+
+html {
+    line-height: 1.5;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-weight: normal;
+    color: rgba(0,0,0,0.87);
+}
+
+.state-list{
+    border:2px solid black;
+}
+
+.poll{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align:center;
+}
+
+.photo{
+    text-align:right;
+}
+
+#fifthNav{
+    background-color: black;
+    font-family: "Courier New", Monospace;
+    width:525px;
+    text-align:center;
+}
+
+#fifthNav li {
+   padding: 10px;
+   border:2px solid;
+   border-color: black;
+   font-size: 20px;
+   background-color: #745DF1;
+   color: white;
+}
+
+#nineNav{
+    background-color: black;
+    font-family: "Courier New", Monospace;
+    width:525px;
+    text-align:center;
+}
+
+#nineNav li {
+   padding: 10px;
+   border:2px solid;
+   border-color: black;
+   font-size: 20px;
+   background-color: #745DF1;
+   color: white;
+}
+
+#sixNav{
+    background-color: black;
+    font-family: "Courier New", Monospace;
+    width:525px;
+    text-align:center;
+}
+
+#sixNav li {
+   padding: 10px;
+   border:2px solid;
+   border-color: black;
+   font-size: 20px;
+   background-color: white;
+}
+
+#sevenNav{
+    background-color: black;
+    font-family: "Courier New", Monospace;
+    width:525px;
+    text-align:center;
+}
+
+#sevenNav li {
+   padding: 10px;
+   border:2px solid;
+   border-color: black;
+   font-size: 20px;
+   background-color: white;
+}
+
+#eightNav{
+    background-color: black;
+    font-family: "Courier New", Monospace;
+    width:525px;
+    text-align:center;
+}
+
+#eightNav li {
+   padding: 10px;
+   border:2px solid;
+   border-color: black;
+   font-size: 20px;
+   background-color: white;
+}
+
+#usertext{
+    color:black;
+}
+
+.long ul{
+    display: grid;
+    grid-template-columns:5fr 5fr 5fr 5fr;
+    list-style-type:none;
+    padding-left:0px;
+}
+
+#homegrid{
+    display: grid;
+    grid-template-columns:3fr 3fr 3fr;
+    list-style-type:none;
+}
+
+body{
+    background-image: url("back.jpg");
+    background-size: 2000px 2000px;
+    background-repeat:no-repeat;
+
+
+}
+
+ol{
+    display: grid;
+    grid-template-columns:5fr 12fr 4fr;
+    list-style-type:none;
+}
+
+@media (max-width: 1200px){
+   ol{
+        display: grid;
+        grid-template-columns:3px 3px;
+        
+    }
+}
+
+@media (max-width: 700px){
+   ol{
+        display: grid;
+        grid-template-columns:1px;
+        
+    }
+    nav {
+        display:block;
+    }
+    
+    
+}
+
